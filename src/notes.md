@@ -1,3 +1,5 @@
+We want to create an IPFS implementation that will pave the path for the DWeb to land in the Web Platform.
+
 # Easy?
 
 # No not easy!
@@ -50,8 +52,21 @@ The whole of the internet archive, decentralized
 # awesome.ipfs.io
 See MOAR awesome here
 
-# Asplode
+# No Asplode
 Don't let your mind asplode yet!
+
+# Service Workers!
+Yes you can run IPFS in a web worker or a service worker
+
+# Service Workers vis
+Not only that, but you can use them to run your own HTTP gateway to the IPFS network.
+
+Typically you might use ipfs.io/ipfs/QMhash to access IPFS content over HTTP.
+
+Service worker can intercept HTTP requests for resources and fetch them directly from the IPFS network without touching any servers or making any HTTP requests.
+
+# Asplode!
+Ok now you can asplode
 
 # Community!
 What's even more super rad, is that,
@@ -63,8 +78,11 @@ Web Browsers and GUI WG have an IRC catch up.
 EVERYONE IS WELCOME!
 We would love to have you there - bring a demo, come say hi or just listen
 
+So please come and join us and help us build js-ipfs
+and help us get it in the web browsers!
+
 # IN web browsers
-But what if IPFS was actually IIIINNNN the browser?
+Talking of which, what if IPFS was actually IIIINNNN the browser?
 I've been talking mostly about an implementation of IPFS that runs in the browser
 What if it was a native part of your browser?
 What if I could just put an IPFS hash in my address bar and get the content?!
@@ -74,10 +92,9 @@ URGH THE DREAM!?
 So, we made progress there!
 
 We were talking to the Brave Browser people about a native integration and
-realised the easiest way for us to do that would be to leverage the power
-of browser plugins.
+realised the easiest way for us to do that would be to use this new web extension called IPFS companion.
 
-Companion is this ace web extension that brings your IPFS node into your browser.
+...and implement missing APIs to allow the web extension to serve content from IPFS directly.
 
 # Brave pony
 We had Brave serving content directly from a locally running IPFS via the
